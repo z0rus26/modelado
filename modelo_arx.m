@@ -12,7 +12,7 @@ out = detrend(out);
 n = 10; % in and out are the same size.
 [test,train]=separacion_data(n,in,out);
 erse=zeros(1,n);
-teta=zeros(10,6);
+teta=zeros(n,6);
 %entrenamiento de los 10 modelos
 
 for aa=1:n  
